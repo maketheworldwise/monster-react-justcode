@@ -10,8 +10,13 @@ import "./CardList.scss";
 ***********************************************************/
 
 function CardList(props) {
-  console.log(props);
-  return <div className="cardList"></div>;
+  return (
+    <div className="cardList">
+      {props.monsters.map((data) => {
+        return <Card id={data.id} name={data.name} email={data.email} />;
+      })}
+    </div>
+  );
 }
 
 export default CardList;

@@ -44,10 +44,11 @@
 <summary>과제 설명</summary>
 <div markdown="1">
 <br>
+
 - **파일:** `CardList.js`
-- 🚨  `Array.map()` 함수 사용법을 꼭 익히고 시작해주세요!
-- 넘겨 받은 데이터를 기준으로 `Array.map()` 함수를 활용하여 `<Card />` 컴포넌트를 리턴해주세요.
-- `Card.js` 에게 넘겨줘야하는 props 는 각 몬스터 객체의 `id`, `name`, `email` 입니다.
+- `Array.map()` 함수 사용법을 꼭 익히고 시작
+- 넘겨 받은 데이터를 기준으로 `Array.map()` 함수를 활용하여 `<Card />` 컴포넌트를 반환
+- `Card.js` 에게 넘겨줘야하는 props 는 각 몬스터 객체의 `id`, `name`, `email`
 
 </div>
 </details>

@@ -34,7 +34,6 @@ function Monsters() {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         setMonsters(data);
       });
   }, []);
@@ -45,7 +44,7 @@ function Monsters() {
     <div className="monsters">
       <h1>컴포넌트 재사용 연습!</h1>
       {/* <SearchBox handleChange=정의한메소드 /> */}
-      {/* <CardList monsters=몬스터리스트 /> */}
+      <CardList monsters={monsters} />
     </div>
   );
 }

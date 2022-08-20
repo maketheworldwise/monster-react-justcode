@@ -18,7 +18,7 @@ import "./Card.scss";
 ***********************************************************/
 
 function Card(props) {
-  const imageUri = "https://robohash.org/" + props.id + "?set=set2&size=180x180";
+  const imageUri = `https://robohash.org/${props.id}?set=set2&size=180x180`;
   return (
     <div className="cardContainer">
       <img src={imageUri} alt="monster" />

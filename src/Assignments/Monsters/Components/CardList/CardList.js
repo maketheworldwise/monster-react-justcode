@@ -13,7 +13,7 @@ function CardList(props) {
   return (
     <div className="cardList">
       {props.monsters.map((data) => {
-        return <Card id={data.id} name={data.name} email={data.email} />;
+        return <Card key={data.id} id={data.id} name={data.name} email={data.email} />;
       })}
     </div>
   );

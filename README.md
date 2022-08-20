@@ -64,7 +64,7 @@
 
 - **파일:** `Card.js`
 - Card.js 컴포넌트 모양 및 구조
-  ![](/docs/images/card.png)
+- ![](/docs/images/card.png)
   ```javascript
   <div className="card-container">
   	<img src=이미지주소 alt="monster" />
